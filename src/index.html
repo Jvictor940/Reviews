@@ -2,11 +2,44 @@
 <html lang="en">
 <head>
   <title>Reviews project</title>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <h1>Reviews project</h1>
+  <main>
+    <section class="container">
+      <!-- title -->
+      <div class="title">
+        <h2>our reviews</h2>
+        <div class="underline">
+        </div>
+        <!-- review -->
+        <article class="review">
+          <div class="img-container">
+            <img src="/Users/JerryVictor/Development/practice/javascript-basic-projects/03-reviews/final/person-1.jpeg" id="person-img" alt="image of a female smiling" />
+          </div>
+          <h4 id="author">Sara Jones</h4>
+          <p id="job">ux design</p>
+          <p id="info">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi aut sunt aliquam ullam quaerat sapiente consectetur corrupti esse inventore asperiores, expedita optio ratione voluptatibus sed aliquid, nisi error eaque voluptas!
+          </p>
+          <!-- prev next buttons -->
+          <div class="button-container">
+            <button class="prev-btn">
+              <i fa-chevron-left></i>
+            </button>
+            <button class="next-btn">
+              <i fa-chevron-right></i>
+            </button>
+          </div>
+          <!-- random button -->
+          <button class="random-btn">surprise me</button>
+        </article>
+      </div>
+    </section>
+  </main>
   <div id="app"></div>
   <script src="main.js"></script>
 </body>
